@@ -17,8 +17,13 @@ Or install it yourself as:
     $ gem install fluent-plugin-redis-publish
 
 ## Usage
+channel name is same as tag,bellow use 'log' as tag
 
-TODO: Write usage instructions here
+<match log>
+  type redis_publish
+  host 10.15.201.180
+  port 6379
+</match>
 
 ## Contributing
 
