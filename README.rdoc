@@ -19,7 +19,6 @@ Or install it yourself as:
 ## Usage
 channel name is same as tag,bellow use 'log' as tag
 
-
 <match log>
   type redis_publish
   host 10.15.201.180
